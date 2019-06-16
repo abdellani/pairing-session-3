@@ -10,10 +10,9 @@
   <style>
     @media (min-width:1024px) {
       #welcome-section {
-        background-color: red;
+        background-color: gray;
       }
     }
-
     #navbar {
       position: fixed;
       top: 0;
@@ -24,7 +23,7 @@
 </head>
 
 <body>
-  <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item active">
@@ -33,10 +32,12 @@
         </ul>
       </div>
     </nav>
-  <section id="welcome-section">
-    <h1>
-      Welcome, my name is <a id="profile-link" target="_blank" href="https://github.com/rickmaster2008">Ricardo</a>!!
+  <section class="jumbotron" id="welcome-section">
+    <h1  class="display-4">
+      Welcome, 
     </h1>
+    <p class="lead">my name is Ricardo!!</p>
+    <a class="btn btn-primary btn-lg" id="profile-link" target="_blank" href="https://github.com/rickmaster2008" role="button">Visite my github profile</a>
   </section>
   <section id="projects">
     <div class="project-tile"></div>
